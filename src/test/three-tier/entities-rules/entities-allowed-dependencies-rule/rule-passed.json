@@ -1,0 +1,18 @@
+{
+    "dragees": [
+        {
+            "name": "AnotherEntity",
+            "profile": "three-tier/entity"
+        },
+        {
+            "name": "AnEntity",
+            "profile": "three-tier/entity",
+            "depends_on": {
+                "AnotherEntity": ["field"]
+            }
+        }
+    ],
+    "result": {
+        "pass": true
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "extends": ["@dragee-io/type/typedoc.json"],
+    "name": "Three-tier Asserter",
+    "entryPoints": ["src/rules"],
+    "out": "docs",
+    "navigationLinks": {
+        "GitHub": "https://github.com/dragee-io/three-tier-asserter"
+    }
+}

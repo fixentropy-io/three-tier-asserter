@@ -1,0 +1,18 @@
+{
+    "dragees": [
+        {
+            "name": "AService",
+            "profile": "three-tier/service"
+        },
+        {
+            "name": "AController",
+            "profile": "three-tier/controller",
+            "depends_on": {
+                "AService": ["field"]
+            }
+        }
+    ],
+    "result": {
+        "pass": true
+    }
+}

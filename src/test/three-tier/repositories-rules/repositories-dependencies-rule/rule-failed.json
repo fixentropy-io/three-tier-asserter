@@ -1,0 +1,18 @@
+{
+    "dragees": [
+        {
+            "name": "ARepository",
+            "profile": "three-tier/repository"
+        },
+        {
+            "name": "AController",
+            "profile": "three-tier/controller",
+            "depends_on": {
+                "ARepository": ["field"]
+            }
+        }
+    ],
+    "result": {
+        "pass": false
+    }
+}
