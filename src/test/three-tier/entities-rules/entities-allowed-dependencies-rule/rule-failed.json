@@ -13,6 +13,13 @@
         }
     ],
     "result": {
-        "pass": false
+        "pass": false,
+        "errors": [
+            {
+                "drageeName":"AnEntity",
+                "message":"This entity must not have any dependency other than \"three-tier/entity\"",
+                "ruleId":"three-tier/entities-allowed-dependencies"
+            }
+        ]
     }
 }

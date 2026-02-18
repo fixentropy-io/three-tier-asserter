@@ -13,6 +13,13 @@
         }
     ],
     "result": {
-        "pass": false
+        "pass": false,
+        "errors": [
+            {
+                "drageeName": "AController",
+                "message": "This controller must not have any dependency other than \"three-tier/service\"",
+                "ruleId": "three-tier/controllers-allowed-dependencies"
+            }
+        ]
     }
 }

@@ -13,6 +13,13 @@
         }
     ],
     "result": {
-        "pass": false
+        "pass": false,
+        "errors": [
+            {
+                "drageeName":"AService",
+                "message":"This service must not have any dependency other than \"three-tier/repository\" or \"three-tier/service\"",
+                "ruleId":"three-tier/services-allowed-dependencies"
+            }
+        ]
     }
 }
