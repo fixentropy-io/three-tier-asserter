@@ -1,5 +1,5 @@
 {
-    "name": "@dragee-io/three-tier-asserter",
+    "name": "@fixentropy-io/three-tier-asserter",
     "module": "index.ts",
     "type": "module",
     "version": "0.0.1",
@@ -12,15 +12,15 @@
         "test": "bun test --watch"
     },
     "devDependencies": {
+        "@biomejs/biome": "^1.9.0",
         "@types/bun": "latest",
-        "typedoc": "^0.26.7",
-        "@biomejs/biome": "^1.9.0"
+        "typedoc": "^0.26.7"
     },
     "peerDependencies": {
         "typescript": "^5.5.0"
     },
     "trustedDependencies": ["@biomejs/biome"],
     "dependencies": {
-        "@dragee-io/type": "0.0.2"
+        "@fixentropy-io/type": "^0.0.6"
     }
 }

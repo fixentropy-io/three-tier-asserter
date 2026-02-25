@@ -13,6 +13,13 @@
         }
     ],
     "result": {
-        "pass": false
+        "pass": false,
+        "errors": [
+            {
+                "drageeName":"ARepository",
+                "message":"\"ARepository\" repository must only be called inside a \"three-tier/service\"",
+                "ruleId":"three-tier/repositories-dependencies"
+            }
+        ]
     }
 }

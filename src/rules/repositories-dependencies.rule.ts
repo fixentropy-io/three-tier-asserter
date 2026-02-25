@@ -53,8 +53,8 @@
  * @module Repositories Dependencies
  *
  */
-import { type RuleResult, RuleSeverity, expectDragee } from '@dragee-io/type/asserter';
-import type { Dragee } from '@dragee-io/type/common';
+import { type RuleResult, RuleSeverity, expectDragee } from '@fixentropy-io/type/asserter';
+import type { Dragee } from '@fixentropy-io/type/common';
 import { profileOf, repositoryProfile, serviceProfile } from '../three-tier.model.ts';
 
 const includeRepoName = (repositories: Dragee[], name: string) =>

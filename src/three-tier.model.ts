@@ -1,4 +1,4 @@
-import type { Dragee } from '@dragee-io/type/common';
+import type { Dragee } from '@fixentropy-io/type/common';
 
 export const controllerProfile = 'three-tier/controller';
 export const serviceProfile = 'three-tier/service';
