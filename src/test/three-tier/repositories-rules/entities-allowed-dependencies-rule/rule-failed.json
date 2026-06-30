@@ -2,11 +2,11 @@
     "dragees": [
         {
             "name": "AService",
-            "profile": "three-tier/service"
+            "profile": "three_tier/service"
         },
         {
             "name": "AnEntity",
-            "profile": "three-tier/entity",
+            "profile": "three_tier/entity",
             "depends_on": {
                 "AService": ["field"]
             }

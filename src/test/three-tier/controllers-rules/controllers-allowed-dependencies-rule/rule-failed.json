@@ -2,11 +2,11 @@
     "dragees": [
         {
             "name": "ARepository",
-            "profile": "three-tier/repository"
+            "profile": "three_tier/repository"
         },
         {
             "name": "AController",
-            "profile": "three-tier/controller",
+            "profile": "three_tier/controller",
             "depends_on": {
                 "ARepository": ["field"]
             }
@@ -17,8 +17,8 @@
         "errors": [
             {
                 "drageeName": "AController",
-                "message": "This controller must not have any dependency other than \"three-tier/service\"",
-                "ruleId": "three-tier/controllers-allowed-dependencies"
+                "message": "This controller must not have any dependency other than \"three_tier/service\"",
+                "ruleId": "three_tier/controllers-allowed-dependencies"
             }
         ]
     }

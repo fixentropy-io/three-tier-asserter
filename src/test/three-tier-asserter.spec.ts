@@ -7,6 +7,6 @@ describe('Three-Tier Asserter', () => {
     test('assert with no dragees', () => {
         const report: Report = asserterHandler(threeTierAsserter, []);
         expect(report.pass).toBeTrue();
-        expect(report.namespace).toBe('three-tier');
+        expect(report.namespace).toBe('three_tier');
     });
 });
