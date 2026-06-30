@@ -1,6 +1,6 @@
 /**
  * **services-allowed-dependencies :**
- * Services can only have dependencies of types "three-tier/repository" or "three-tier/service"
+ * Services can only have dependencies of types "three_tier/repository" or "three_tier/service"
  *
  * ## Examples
  *
@@ -11,11 +11,11 @@
  *     "dragees": [
  *         {
  *             "name": "AController",
- *             "profile": "three-tier/controller"
+ *             "profile": "three_tier/controller"
  *         },
  *         {
  *             "name": "AService",
- *             "profile": "three-tier/service",
+ *             "profile": "three_tier/service",
  *             "depends_on": {
  *                 "AController": ["field"]
  *             }
@@ -34,15 +34,15 @@
  *     "dragees": [
  *         {
  *             "name": "ARepository",
- *             "profile": "three-tier/repository"
+ *             "profile": "three_tier/repository"
  *         },
  *         {
  *             "name": "AnotherService",
- *             "profile": "three-tier/service"
+ *             "profile": "three_tier/service"
  *         },
  *         {
  *             "name": "AService",
- *             "profile": "three-tier/service",
+ *             "profile": "three_tier/service",
  *             "depends_on": {
  *                 "ARepository": ["field"],
  *                 "AnotherService": ["field"]

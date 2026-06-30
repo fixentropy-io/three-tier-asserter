@@ -2,11 +2,11 @@
     "dragees": [
         {
             "name": "AService",
-            "profile": "three-tier/service"
+            "profile": "three_tier/service"
         },
         {
             "name": "AController",
-            "profile": "three-tier/controller",
+            "profile": "three_tier/controller",
             "depends_on": {
                 "AService": ["field"]
             }

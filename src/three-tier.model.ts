@@ -1,9 +1,9 @@
 import type { Dragee } from '@fixentropy-io/type/common';
 
-export const controllerProfile = 'three-tier/controller';
-export const serviceProfile = 'three-tier/service';
-export const repositoryProfile = 'three-tier/repository';
-export const entityProfile = 'three-tier/entity';
+export const controllerProfile = 'three_tier/controller';
+export const serviceProfile = 'three_tier/service';
+export const repositoryProfile = 'three_tier/repository';
+export const entityProfile = 'three_tier/entity';
 
 const profilesName = [
     controllerProfile,

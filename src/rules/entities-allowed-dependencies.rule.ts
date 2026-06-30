@@ -1,6 +1,6 @@
 /**
  * **entities-allowed-dependencies :**
- * Entities can only have dependencies of type "three-tier/entity"
+ * Entities can only have dependencies of type "three_tier/entity"
  *
  * ## Examples
  *
@@ -11,11 +11,11 @@
  *     "dragees": [
  *         {
  *             "name": "AService",
- *             "profile": "three-tier/service"
+ *             "profile": "three_tier/service"
  *         },
  *         {
  *             "name": "AnEntity",
- *             "profile": "three-tier/entity",
+ *             "profile": "three_tier/entity",
  *             "depends_on": {
  *                 "AService": ["field"]
  *             }
@@ -34,11 +34,11 @@
  *     "dragees": [
  *         {
  *             "name": "AnotherEntity",
- *             "profile": "three-tier/entity"
+ *             "profile": "three_tier/entity"
  *         },
  *         {
  *             "name": "AnEntity",
- *             "profile": "three-tier/entity",
+ *             "profile": "three_tier/entity",
  *             "depends_on": {
  *                 "AnotherEntity": ["field"]
  *             }

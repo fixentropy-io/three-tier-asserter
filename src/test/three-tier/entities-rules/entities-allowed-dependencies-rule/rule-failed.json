@@ -2,11 +2,11 @@
     "dragees": [
         {
             "name": "AService",
-            "profile": "three-tier/service"
+            "profile": "three_tier/service"
         },
         {
             "name": "AnEntity",
-            "profile": "three-tier/entity",
+            "profile": "three_tier/entity",
             "depends_on": {
                 "AService": ["field"]
             }
@@ -17,8 +17,8 @@
         "errors": [
             {
                 "drageeName":"AnEntity",
-                "message":"This entity must not have any dependency other than \"three-tier/entity\"",
-                "ruleId":"three-tier/entities-allowed-dependencies"
+                "message":"This entity must not have any dependency other than \"three_tier/entity\"",
+                "ruleId":"three_tier/entities-allowed-dependencies"
             }
         ]
     }

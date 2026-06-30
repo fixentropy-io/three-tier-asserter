@@ -11,11 +11,11 @@
  *     "dragees": [
  *         {
  *             "name": "ARepository",
- *             "profile": "three-tier/repository"
+ *             "profile": "three_tier/repository"
  *         },
  *         {
  *             "name": "AController",
- *             "profile": "three-tier/controller",
+ *             "profile": "three_tier/controller",
  *             "depends_on": {
  *                 "ARepository": ["field"]
  *             }
@@ -34,11 +34,11 @@
  *     "dragees": [
  *         {
  *             "name": "ARepository",
- *             "profile": "three-tier/repository"
+ *             "profile": "three_tier/repository"
  *         },
  *         {
  *             "name": "AService",
- *             "profile": "three-tier/service",
+ *             "profile": "three_tier/service",
  *             "depends_on": {
  *                 "ARepository": ["field"]
  *             }

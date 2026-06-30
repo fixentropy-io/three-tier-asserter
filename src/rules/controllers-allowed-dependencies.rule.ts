@@ -1,6 +1,6 @@
 /**
  * **controllers-allowed-dependencies :**
- * Controllers can only have dependencies of type "three-tier/service"
+ * Controllers can only have dependencies of type "three_tier/service"
  *
  * ## Examples
  *
@@ -11,11 +11,11 @@
  *     "dragees": [
  *         {
  *             "name": "ARepository",
- *             "profile": "three-tier/repository"
+ *             "profile": "three_tier/repository"
  *         },
  *         {
  *             "name": "AController",
- *             "profile": "three-tier/controller",
+ *             "profile": "three_tier/controller",
  *             "depends_on": {
  *                 "ARepository": ["field"]
  *             }
@@ -34,11 +34,11 @@
  *     "dragees": [
  *         {
  *             "name": "AService",
- *             "profile": "three-tier/service"
+ *             "profile": "three_tier/service"
  *         },
  *         {
  *             "name": "AController",
- *             "profile": "three-tier/controller",
+ *             "profile": "three_tier/controller",
  *             "depends_on": {
  *                 "AService": ["field"]
  *             }
